@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rei Emmanuel Cristobal | Portfolio</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'><text%20y='.9em'%20font-size='90'>🎮</text></svg>"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class="mobile-header">
+        <span class="nav-logo">REI_CRISTOBAL</span>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <div class="nav-container" id="nav-container">
+        <div class="nav-links">
+          <a href="#profile"><span class="nav-num">01</span> PROFILE</a>
+          <a href="#skills"><span class="nav-num">02</span> SKILLS</a>
+          <a href="#projects"><span class="nav-num">03</span> PROJECTS</a>
+          <a href="#experience"><span class="nav-num">04</span> EXPERIENCE</a>
+        </div>
+
+        <div class="sidebar-contact">
+          <a href="mailto:lr.recristobal@mmdc.mcl.edu.ph" class="contact-link"
+            >📧 SEND AN EMAIL</a
+          >
+          <a href="assets/reiCV.pdf" class="contact-link" target="_blank"
+            >📄 DOWNLOAD CV</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <section class="landing" id="home">
+        <div class="scanline"></div>
+        <div class="hero-content">
+          <h1 class="hero-name-flicker">REI_CRISTOBAL</h1>
+          <div class="typing-container">
+            <div class="typing">
+              ASPIRING WEB DEVELOPER // PROJECT COORDINATOR
+            </div>
+          </div>
+        </div>
+        <div class="scroll-footer">
+          <span class="scroll-text-fade">⇣ SCROLL_DOWN ⇣</span>
+        </div>
+      </section>
+
+      <div class="container">
+        <section class="pixel-card" id="profile" data-label="Profile">
+          <h2 class="section-header">About Me</h2>
+          <p class="intro-text">
+            BSIT student at <strong>Mapúa Malayan Digital College</strong> with
+            a previous degree in Premed Physics from <strong>DLSU</strong>. My
+            background in science and student leadership has trained me to be
+            highly organized and logical. Currently, I specialize in creating
+            clear technical documentation, planning databases, and testing web
+            projects.
+          </p>
+
+          <div class="edu-container">
+            <div class="edu-item">
+              <div class="edu-meta">
+                <span class="edu-school">Mapúa Malayan Digital College</span>
+                <span class="edu-date">2022 — 2026 (Expected)</span>
+              </div>
+              <div class="edu-info">
+                <span class="edu-degree"
+                  >Bachelor of Science in Information Technology</span
+                >
+                <span class="edu-major">Major in Software Development</span>
+              </div>
+            </div>
+
+            <div class="edu-item">
+              <div class="edu-meta">
+                <span class="edu-school">De La Salle University — Manila</span>
+                <span class="edu-date">2015 — 2019</span>
+              </div>
+              <div class="edu-info">
+                <span class="edu-degree"
+                  >Bachelor of Science in Premed Physics</span
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="pixel-card" id="skills" data-label="Skills">
+          <h2 class="section-header">Technical Skillset</h2>
+
+          <div class="skills-dashboard">
+            <div class="skill-line">
+              <span class="skill-label">Documentation & Planning</span>
+              <span class="skill-value"
+                >SRS / system guides, UML/ERD, user flows, presentation
+                decks</span
+              >
+            </div>
+
+            <div class="skill-line">
+              <span class="skill-label">Testing & Support</span>
+              <span class="skill-value"
+                >Test cases, UAT checklist, bug reports (steps +
+                screenshots)</span
+              >
+            </div>
+
+            <div class="skill-line">
+              <span class="skill-label">Tools & Technologies</span>
+              <span class="skill-value"
+                >Draw.io, Lucidchart, Google Workspace, VS Code, Docker,
+                MongoDB</span
+              >
+            </div>
+          </div>
+        </section>
+
+        <section class="pixel-card" id="projects" data-label="Projects">
+          <h2 class="section-header">Selected Works</h2>
+
+          <div class="project-grid">
+            <div class="project-node">
+              <div class="project-preview">
+                <img
+                  src="assets/mentease-preview.png"
+                  alt="MentEase Preview"
+                  class="project-img"
+                />
+              </div>
+
+              <div class="project-info">
+                <h3 class="project-title">MentEase Platform (Capstone)</h3>
+                <p class="project-brief">
+                  A web-based mentoring platform. Designed the system's
+                  relational database and pages for Mentor and Admin modules.
+                </p>
+
+                <div class="project-actions">
+                  <a
+                    href="assets/mentease-preview.mp4"
+                    target="_blank"
+                    class="btn-terminal primary"
+                  >
+                    VIEW PREVIEW</a
+                  >
+                  <a
+                    href="assets/mentease-erd.png"
+                    target="_blank"
+                    class="btn-terminal"
+                    >VIEW DATABASE DIAGRAM</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="project-node">
+              <div class="project-preview">
+                <img
+                  src="assets/finmark-login.png"
+                  alt="FinMark Preview"
+                  class="project-img"
+                />
+              </div>
+
+              <div class="project-info">
+                <h3 class="project-title">FinMark Authentication</h3>
+                <p class="project-brief">
+                  Developed technical documentation for API endpoint logic and
+                  system authentication protocols.
+                </p>
+
+                <div class="project-actions">
+                  <a
+                    href="https://www.canva.com/design/DAGtEf2lIw8/XDb4zHNHbJri0eAMYgGeaA/view?utm_content=DAGtEf2lIw8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h01c0473d18"
+                    target="_blank"
+                    class="btn-terminal primary"
+                  >
+                    VIEW PRESENTATION</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="project-node">
+              <div class="project-preview">
+                <img
+                  src="assets/motorph-classdiagram.png"
+                  alt="MotorPH Class Diagram"
+                  class="project-img"
+                />
+              </div>
+
+              <div class="project-info">
+                <h3 class="project-title">
+                  MotorPH Payroll System (Architecture)
+                </h3>
+                <p class="project-brief">
+                  Designed a comprehensive class diagram to transition MotorPH
+                  from manual to automated processes.
+                </p>
+
+                <div class="project-actions">
+                  <a
+                    href="assets/motorph-classdiagram.png"
+                    target="_blank"
+                    class="btn-terminal primary"
+                    >VIEW CLASS DIAGRAM</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="project-node">
+              <div class="project-preview">
+                <img
+                  src="assets/closets-preview.png"
+                  alt="Closets System Analysis"
+                  class="project-img"
+                />
+              </div>
+
+              <div class="project-info">
+                <h3 class="project-title">
+                  Closets Application (System Analysis)
+                </h3>
+                <p class="project-brief">
+                  Designed the system architecture for a wardrobe app. Created
+                  the Class, Component, and Sequence diagrams.
+                </p>
+
+                <div class="project-actions">
+                  <a
+                    href="assets/closets-class.png"
+                    target="_blank"
+                    class="btn-terminal primary"
+                    >CLASS DIAGRAM</a
+                  >
+                  <a
+                    href="assets/closets-component.png"
+                    target="_blank"
+                    class="btn-terminal"
+                    >COMPONENT</a
+                  >
+                  <a
+                    href="https://lucid.app/documents/embedded/bfb1c4a5-6e93-4daf-94f7-aefff0149c45"
+                    target="_blank"
+                    class="btn-terminal"
+                    >SEQUENCE</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="pixel-card" id="experience" data-label="Experience">
+          <h2 class="section-header">Leadership & Experience</h2>
+
+          <div class="log-entry">
+            <div class="log-date">2018</div>
+            <div class="log-body">
+              <div class="log-header">
+                <strong class="log-title"
+                  >Adventist Medical Center Manila</strong
+                >
+                <span class="sub-role"
+                  >Laboratory Assistant | June – July 2018</span
+                >
+              </div>
+              <ul class="resume-list">
+                <li>
+                  Managed patient documentation and paperwork with high
+                  attention to detail.
+                </li>
+                <li>
+                  Operated diagnostic systems including X-ray, Ultrasound, and
+                  CT Scan.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="log-entry">
+            <div class="log-date">2016 — 17</div>
+            <div class="log-body">
+              <div class="log-header">
+                <strong class="log-title">DLSU Physics Society (Physoc)</strong>
+                <span class="sub-role">VP for Finance | 2016 – 2017</span>
+              </div>
+              <ul class="resume-list">
+                <li>
+                  Managed club finances, transaction records, and reimbursements
+                  for accuracy.
+                </li>
+                <li>
+                  Led fundraising initiatives and events to support organization
+                  activities.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="pixel-card" id="credentials" data-label="Verified Data">
+          <h2 class="section-header">Certifications</h2>
+          <div class="badge-grid">
+            <div class="badge-item">
+              🏆 Civil Service Exam Passer (Professional) – 2023
+            </div>
+            <div class="badge-item">
+              📜 DLSU Outstanding Thesis Awardee – 2019
+            </div>
+          </div>
+        </section>
+
+        <footer>
+          <div class="footer-tagline">© 2025 Rei Emmanuel Cristobal</div>
+        </footer>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
